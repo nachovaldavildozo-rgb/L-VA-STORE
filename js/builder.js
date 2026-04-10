@@ -23,3 +23,13 @@ design.onmousedown = () => {
     design.style.top = e.pageY + "px";
   };
 };
+let cart = JSON.parse(localStorage.getItem("cart")) || [];
+
+document.getElementById("addCart").onclick = () => {
+  cart.push({
+    type: type.value,
+    size: size.value
+  });
+
+  localStorage.setItem("cart", JSON.stringify(cart));
+};
