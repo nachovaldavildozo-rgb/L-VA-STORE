@@ -4,6 +4,10 @@
   --verde-acento: #3E6B4F;
 }
 
+<a href="https://wa.me/591XXXXXXXX"
+class="fixed bottom-6 right-6 bg-green-500 text-white p-4 rounded-full shadow-lg">
+💬
+</a>
 body {
   background: var(--beige);
   font-family: 'Poppins', sans-serif;
