@@ -1,1 +1,28 @@
+:root {
+  --beige: #F5F1E9;
+  --verde: #1F3D2B;
+  --verde-acento: #3E6B4F;
+}
 
+body {
+  background: var(--beige);
+  font-family: 'Poppins', sans-serif;
+}
+
+.card {
+  background: white;
+  border-radius: 20px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+}
+
+.btn {
+  background: var(--verde);
+  color: white;
+  padding: 12px 20px;
+  border-radius: 12px;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  transform: scale(1.05);
+}
